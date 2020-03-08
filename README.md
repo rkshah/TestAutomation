@@ -1,9 +1,9 @@
 Automation Test Framework
 
 Libraries Used:
-    TestNg
-    Selenium
-    RestAssured
+    TestNg <br>
+    Selenium <br>
+    RestAssured <br>
     
 Execution Steps:
 
