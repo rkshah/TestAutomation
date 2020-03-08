@@ -1,11 +1,11 @@
-Automation Test Framework
+<h2> Automation Test Framework </h2>
 
 <strong> Libraries Used: </strong><br>
     TestNg <br>
     Selenium <br>
     RestAssured <br>
     
-Execution Steps:
+<strong> Execution Steps: </strong>
 
     Chrome
         Install chromedriver (for MAC - brew install chromedriver)
@@ -17,6 +17,6 @@ Execution Steps:
         Get the driver path and replace in below command
         command - "mvn clean compile test -Dbrowser=Firefox -DdriverPath=<driverPath> -DsuiteXmlFile=./testng-sanity.xml"
         
-Results:
+<strong> Results: </strong>
     Test report is generated at
         ./target/surefire-reports/index.html
