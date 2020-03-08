@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite">
+    <parameter name="browserType" value="${browser}"/>
+    <listeners>
+        <listener class-name="org.onada.base.TestListner" />
+    </listeners>
+    <test name="Sanity Test">
+        <classes>
+            <class name="org.onada.TestConfig" />
+            <class name="org.onada.SearchTest" />
+        </classes>
+    </test> <!-- End Test -->
+</suite> <!-- End Suite -->
