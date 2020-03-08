@@ -10,5 +10,5 @@
             <class name="org.onada.TestConfig" />
             <class name="org.onada.SearchTest" />
         </classes>
-    </test> <!-- End Test -->
-</suite> <!-- End Suite -->
+    </test> <!-- End Sanity Test -->
+</suite> <!-- End Sanity Suite -->
